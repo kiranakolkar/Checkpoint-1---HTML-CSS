@@ -1,0 +1,122 @@
+/*Home page*/
+header{
+    text-align: center;
+    font-size: 30px;
+    font-style: normal;
+    background-color: #0d1430;
+    }
+    .links{
+        text-decoration: none;
+        padding: 10px;
+        display: inline-block;
+    }
+    a{
+        padding-left: 10px;
+        padding-right: 10px;
+        text-decoration: none;
+        color: white;
+    }
+    h1{
+        text-align: center;
+        
+    }
+    body{
+       
+       line-height: 1.5;  
+        
+    }  
+    hr{
+        width: 600px;
+        border-style: dotted;
+        margin: 32px auto;
+      
+      
+    }
+    h2{
+        text-align: center;
+        padding-bottom: 20px;       
+    }
+  
+    .box{
+        width: 120px;
+        height: 120px;
+        background-color: #99D8CA;
+        border: solid 20px #5873e2;
+        outline: #0d1430 solid 8px ;
+        box-shadow:0 0 0 20px #90ffa9 ;
+        margin: 20px auto;
+        text-align: center;
+        border-radius: 5px;
+        
+    
+    }
+    .circle1{
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        background-color: #99D8CA;
+        margin-top: 20px;
+        display: inline-block;
+        
+    }
+    .circle2{
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        background-color: #5873e2;
+        margin-top: 20px;
+        display: inline-block;
+    }
+    .circle3{
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        background-color:#0d1430;
+        margin-top: 20px;
+        display: inline-block;
+        
+    }
+    .circle4{
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        background-color: #90ffa9;
+        margin-top: 20px;
+        display: inline-block;
+        
+    }
+    .marker{
+        margin: 0 16px;
+        display: inline-block;
+    }
+    .colorcodes{
+        text-align: center;
+
+    }
+    .center{
+        text-align: center;   
+    }
+    .all{
+            text-align: center;
+            border: 2px solid black;
+            width: 660px;
+            height: auto;
+            display: inline-block;
+            font-size: 0px;
+          }
+    .smallbox{
+        height: 180px;
+        width: 200px;
+        background-color: lightblue;
+        display: inline-block;
+        margin: 10px;
+        text-align: center;
+        font-size: 0px;
+    }
+    .border{
+      
+       border: 2px solid black;
+       box-sizing: border-box;
+    }
+
+ 

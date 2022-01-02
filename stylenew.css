@@ -1,0 +1,67 @@
+  /*Blog Page*/
+  
+  
+   header{
+    text-align: center;
+    font-size: 30px;
+    font-style: normal;
+    background-color: #0d1430;
+    padding: 15px;
+    }
+    a{
+        text-decoration: none;
+        color: white;
+        padding: 20px;
+    }
+    .one{
+        margin-top: 20px;
+        margin-left: 205px;
+        margin-right: 205px;
+       
+    }
+    .two{
+        margin-top: 20px;
+        margin-left: 205px;
+        margin-right: 205px;
+        
+    
+    }
+  
+
+
+img{
+    background-color: lightblue;
+    height: 300px;
+    width: 400px;
+    
+}       
+.samebox{
+    height: 300px;
+    width: 400px;
+    background-color: lightblue;
+    display: inline-block;
+    margin: 10px;
+    
+   
+}
+
+
+
+    
+.green{
+    color: green;
+    font-size: 18px;
+    text-decoration: underline;
+}
+.background{
+    padding-top: 10px;
+    height: 10px;
+    width: 30px;
+    background-color: green;
+    color: white;
+    border-radius: 30px;
+    text-decoration: none;
+}
+h2{
+    color: darkred
+}
