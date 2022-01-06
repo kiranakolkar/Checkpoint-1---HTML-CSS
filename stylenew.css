@@ -1,3 +1,48 @@
+  /*CSS reset*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+  
   /*Blog Page*/
   
   
@@ -6,45 +51,51 @@
     font-size: 30px;
     font-style: normal;
     background-color: #0d1430;
-    padding: 15px;
+    padding: 25px;
     }
     a{
         text-decoration: none;
-        color: white;
-        padding: 20px;
+        padding: 25px;
+
     }
+    .htmltag{
+        color:white;
+    }
+    .blogtab{
+        color: green;
+    }
+
     .one{
-        margin-top: 20px;
+       margin-top: 20px;
         margin-left: 205px;
         margin-right: 205px;
        
     }
     .two{
-        margin-top: 20px;
-        margin-left: 205px;
-        margin-right: 205px;
-        
     
+        margin-left: 205px;
+        margin-right: 205px;  
     }
-  
-
 
 img{
     background-color: lightblue;
     height: 300px;
     width: 400px;
-    
+    margin-bottom: 10px;
 }       
 .samebox{
     height: 300px;
     width: 400px;
-    
     display: inline-block;
     margin: 10px; 
-     
+}
+.para{
+    display: block;
+    display: inline-block;
+    margin-bottom: 30px;
 }
 p{
-    padding-bottom: 17px;
+    margin-bottom: 60px;
 }
 
 
@@ -57,13 +108,16 @@ p{
 }
 .background{
     
-    
     padding: 9px;
     background-color: green;
     color: white;
     text-decoration: none;
     border-radius: 15px;
+   
 }
 h2{
-    color: darkred
+    color: darkred;
+    margin-bottom: 50px;
+    font-size: 20px;
+    margin-top: 3px;
 }
